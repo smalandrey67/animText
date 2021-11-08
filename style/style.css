@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 800px;
+}
+.span{
+    display: inline-block;
+    cursor: pointer;
+}
+.animation{
+    opacity: 0;
+    transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+    filter: blur(50px);
+    transition: 1s;
+}
